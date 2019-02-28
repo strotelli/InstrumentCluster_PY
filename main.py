@@ -63,6 +63,9 @@ def main():
                 if k.key == pygame.K_BACKSPACE:
                     if i > 0:
                         i -= 1
+
+
+
                         gear_surface = my_font.render(gear[i], True, red)
             if k.type == pygame.QUIT:
                 loop = False
