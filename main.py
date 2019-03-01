@@ -13,7 +13,7 @@ def main():
 
     center = (int(resolution[0]) // 2 + 1, int(resolution[1]) // 2 + 1)
 
-    move_speed = 2
+    move_speed = 1
     resolution = tuple(resolution)
     main_surface = pygame.display.set_mode(resolution)
     gear = ("N", "1", "2", "3", "4", "5", "6")
